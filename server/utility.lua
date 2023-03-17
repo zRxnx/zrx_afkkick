@@ -5,7 +5,7 @@ local continueCheck = true
 
 CreateThread(function()
     if curResName ~= 'zrx_afkkick' then
-        resourceName = 'zrx_afkkick (' .. curResName .. ')'
+        resourceName = ('zrx_afkkick (%s)'):format(curResName)
     end
 end)
 

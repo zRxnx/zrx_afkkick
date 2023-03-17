@@ -4,8 +4,8 @@ lua54 'yes'
 use_experimental_fxv2_oal 'yes'
 
 author 'zRxnx'
-description 'Advanced afk kick system'
-version '1.0.0'
+description 'Simple AFK Kick system'
+version '1.1.0'
 
 shared_scripts {
     'configuration/*.lua'
